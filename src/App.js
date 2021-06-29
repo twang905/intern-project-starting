@@ -1,13 +1,12 @@
-import React, { Suspense } from 'react';
-
+import React from 'react';
 import Routes from 'main/routes';
 
-function App() {
+const App = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <div className="App">
       <Routes />
-    </Suspense>
+    </div>
   );
-}
+};
 
 export default App;

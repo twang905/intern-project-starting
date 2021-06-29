@@ -1,13 +1,13 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 
-class Home extends PureComponent {
-  render() {
-    return (
-      <>
+const Home = () => {
+  return (
+    <div className="Home">
+      <div className="page-wrapper">
         <h1>Home</h1>
-      </>
-    );
-  }
-}
+      </div>
+    </div>
+  );
+};
 
 export default Home;
